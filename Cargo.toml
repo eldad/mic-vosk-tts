@@ -1,0 +1,10 @@
+[package]
+name = "mic-vosk-tts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vosk = "0.3"
+cpal = { version = "0.15", features = ["jack"] }
+anyhow = "1.0"
+console = "0.15.11"
